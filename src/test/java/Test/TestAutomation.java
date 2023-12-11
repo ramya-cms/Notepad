@@ -27,7 +27,8 @@ public class TestAutomation {
 	public static AutoItX x;
 
 	@BeforeTest
-	public  /*static*/ void setUpBeforeClass() {
+	public  /*static*/ void setUpBeforeClass() 
+	{
 
 		configure();
 	}

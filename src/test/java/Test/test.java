@@ -9,7 +9,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class test {
 	
-	public static void main (String [] args) throws Exception{
+	public static void main (String [] args) throws Exception
+	{
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
